@@ -1,0 +1,82 @@
+{
+  "listNames": [
+    {
+      "id": 100,
+      "name": "Home"
+    },
+    {
+      "id": 101,
+      "name": "Work"
+    },
+    {
+      "id": 102,
+      "name": "Family/Friends"
+    },
+    {
+      "id": 103,
+      "name": "Professional Development"
+    }
+  ],
+  "items": [
+    {
+      "id": 200,
+      "listName": "Home",
+      "content": "Clean dishes",
+      "completed": true
+    },
+    {
+      "id": 201,
+      "listName": "Home",
+      "content": "Wash Laundry",
+      "completed": false
+    },
+    {
+      "id": 202,
+      "listName": "Work",
+      "content": "create React app",
+      "completed": false
+    },
+    {
+      "id": 203,
+      "listName": "Work",
+      "content": "Create Rails backend",
+      "completed": true
+    },
+    {
+      "id": 204,
+      "listName": "Family/Friends",
+      "content": "call Mom",
+      "completed": false
+    },
+    {
+      "id": 205,
+      "listName": "Family/Friends",
+      "content": "Zoom hangout",
+      "completed": true
+    },
+    {
+      "id": 206,
+      "listName": "Professional Development",
+      "content": "Study Algorithms",
+      "completed": false
+    },
+    {
+      "id": 207,
+      "listName": "Professional Development",
+      "content": "Study data structures",
+      "completed": true
+    },
+    {
+      "id": 208,
+      "listName": "Professional Development",
+      "content": "Update Resume",
+      "completed": false
+    },
+    {
+      "id": 209,
+      "listName": "Professional Development",
+      "content": "Porfolio Website",
+      "completed": false
+    }
+  ]
+}
