@@ -4,10 +4,10 @@ const ListSelector = (props) => (
     <select
         className='dropdown'
         defaultValue='select'
-        onChange={()=> console.log('changed dropdown')}
+        onChange={(e)=> props.handleChange(e)}
     >
         <option value="select">
-          Select a course
+          Select a topic
         </option>
         
         {props.lists.map(list => <option value={list.name}>{list.name}</option>)}

@@ -9,7 +9,7 @@ const ItemList = (props) => (
                 <th>Complete</th>
             </tr>
             
-            {/*new row for every to do list item*/}
+            {props.items.map(item => <Item key={item.id} item={item} handleCompleted={props.handleCompleted}/>)}
             
         </tbody>
     </table>

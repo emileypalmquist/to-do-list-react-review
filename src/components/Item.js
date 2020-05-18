@@ -2,12 +2,12 @@ import React from 'react';
 
 const Item = (props) => (
     <tr>
-        <td>{/* to do list item content display here */}</td>
+        <td>{props.item.content}</td>
         <td>
             <input 
                 type='checkbox'
-                checked={null}
-                onChange={() => console.log('You changed the checkbox')}
+                checked={props.item.completed}
+                onChange={() => props.handleCompleted(props.item)}
             />
         </td>
     </tr>
